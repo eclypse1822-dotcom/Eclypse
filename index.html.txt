@@ -3,21 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>ECLYPSE</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
       background: black;
       color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .soldout {
+      color: red;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
-  <h1>ECLYPSE</h1>
-  <p>La página ya está online</p>
+  <section>
+    <h1>ECLYPSE</h1>
+    <p>DROP 001</p>
+  </section>
+
+  <section>
+    <h2>PRODUCTO</h2>
+    <p>Camisa ECLYPSE</p>
+    <p class="soldout">SOLD OUT</p>
+  </section>
+
+  <section>
+    <h2>LOOKBOOK</h2>
+    <p>Próximamente</p>
+  </section>
 
 </body>
 </html>
+
